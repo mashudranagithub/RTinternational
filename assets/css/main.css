@@ -81,3 +81,27 @@ h6{
     border-radius: 5px;
     display: none;
 }
+
+
+
+/*Contact*/
+
+footer#Footer .container-fluid .row {
+    background: url(../images/chalmars-university-rahim.jpg);
+}
+
+/*Student- Comments*/
+
+.student-image img {
+    width: 100%;
+}
+
+/*About-us*/
+
+#About-us .border {
+    width: 100px;
+    display: block;
+    height: 7px;
+    background: #17d452;
+    margin: 20px auto;
+}
