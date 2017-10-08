@@ -105,3 +105,29 @@ footer#Footer .container-fluid .row {
     background: #17d452;
     margin: 20px auto;
 }
+
+
+
+/*Faq*/
+
+#faq {
+	background-color: rgb(245, 245, 245);
+}
+
+.style-collapse h4.panel-title a i.fa {
+	float: right;
+	font-size: 150%;
+	line-height: 15px;
+	display: none;
+}
+
+.style-collapse h4.panel-title a[aria-expanded=true] i.fa.fa-angle-up {
+	display: block;
+}
+
+.style-collapse h4.panel-title a[aria-expanded=false] i.fa.fa-angle-down {
+	display: block;
+}
+
+
+/*End Faq*/
