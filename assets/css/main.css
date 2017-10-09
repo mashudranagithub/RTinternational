@@ -8,6 +8,10 @@ a:hover{
     text-decoration: none;
 }
 
+p{
+    margin-bottom: 0px;
+}
+
 ul{
     list-style: none;
     margin: 0px;
@@ -86,9 +90,12 @@ h6{
 
 /*Contact*/
 
-footer#Footer .container-fluid .row {
+section#Map-contact .container-fluid .row {
     background: url(../images/chalmars-university-rahim.jpg);
 }
+
+
+
 
 /*Student- Comments*/
 
@@ -100,7 +107,8 @@ footer#Footer .container-fluid .row {
 
 #Services .border,
 #About-us .border,
-#Faq-section .border{
+#Faq-section .border,
+#Student-comments .border{
     width: 100px;
     display: block;
     height: 7px;
@@ -159,4 +167,28 @@ footer#Footer .container-fluid .row {
 
 .ceoimage-bg:hover h4{
     display: block;
+}
+
+
+
+/*footer*/
+
+#Footer,
+#Footer a{
+    color:#fff;
+}
+
+
+
+.facebook-image img{
+    width:100%;
+    height:auto;
+}
+
+.footer-top{
+    background: #000;
+}
+
+.footer-bottom{
+    background: #333;
 }
