@@ -96,9 +96,11 @@ footer#Footer .container-fluid .row {
     width: 100%;
 }
 
-/*About-us*/
+/*Services*/
 
-#About-us .border {
+#Services .border,
+#About-us .border,
+#Faq-section .border{
     width: 100px;
     display: block;
     height: 7px;
@@ -114,20 +116,47 @@ footer#Footer .container-fluid .row {
 	background-color: rgb(245, 245, 245);
 }
 
-.style-collapse h4.panel-title a i.fa {
+.card-header h4.panel-title a i.fa {
 	float: right;
 	font-size: 150%;
 	line-height: 15px;
 	display: none;
 }
 
-.style-collapse h4.panel-title a[aria-expanded=true] i.fa.fa-angle-up {
+.card-header h4.panel-title a[aria-expanded=true] i.fa.fa-angle-up {
 	display: block;
 }
 
-.style-collapse h4.panel-title a[aria-expanded=false] i.fa.fa-angle-down {
+.card-header h4.panel-title a[aria-expanded=false] i.fa.fa-angle-down {
 	display: block;
 }
 
 
 /*End Faq*/
+
+
+/*About-us*/
+
+.ceoimage-bg{
+    background: url(../images/ceo.jpg) no-repeat;
+    width: 100%;
+    min-height: 350px;
+}
+
+.ceoimage-bg h4{
+    line-height: 350px;
+    text-align: center;
+    display: none;
+    background: rgba(0, 0, 0, 0.4);
+    font-size: 35px;
+}
+
+.ceoimage-bg h4 a{
+
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.ceoimage-bg:hover h4{
+    display: block;
+}
