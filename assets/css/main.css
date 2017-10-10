@@ -1,26 +1,42 @@
-body{
-    margin:0;
-    padding:0;
+/*******************
+********************
+Front-end part******
+********************
+Designed & developed by     :: Md. Mashud Rana
+Github Link                 :: https://github.com/mashudranagithub
+Personal Website Link       :: http://mashudrana.com/
+Facebook Profile Link       :: https://www.facebook.com/mashudranabitm
+*******************
+*******************/
+
+
+/***************  Common Styles Start  ***************/
+
+body {
+    margin: 0;
+    padding: 0;
 }
 
 a,
-a:hover{
+a:hover {
     text-decoration: none;
+    font-family: 'Viga', sans-serif;
 }
 
-p{
+p {
     margin-bottom: 0px;
+font-family: 'Roboto', sans-serif;
 }
 
-ul{
+ul {
     list-style: none;
     margin: 0px;
     padding: 0px;
 }
 
-ul li{
-    margin:0;
-    padding:0;
+ul li {
+    margin: 0;
+    padding: 0;
     display: inline-block;
 }
 
@@ -29,48 +45,16 @@ h2,
 h3,
 h4,
 h5,
-h6{
-    margin:0;
-    padding:0;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*Mega Menu*/
-
-.mega-menu {
-    position: absolute;
-    top: 93%;
-    left: 15px;
-    right: 15px;
-    background: #ddd;
-    display: none;
-    z-index: 1000;
-}
-
-.mega:hover .mega-menu{
-    display: block;
-}
-
-.mega-menu ul li{
-    display: block;
+h6 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Pridi', serif;
 }
 
 
 /*go to top button*/
-.go-top{
+
+.go-top {
     position: fixed;
     right: 5%;
     bottom: 10%;
@@ -87,28 +71,103 @@ h6{
 }
 
 
+/***************  Common Styles End  ***************/
 
-/*Contact*/
 
-section#Map-contact .container-fluid .row {
-    background: url(../images/chalmars-university-rahim.jpg);
+/************************** Header Section Start **************************/
+
+/*header-top start*/
+
+#Header .header-top {
+    background: #22313F;
+    min-height: 50px;
 }
 
 
+/*social-menu*/
 
-
-/*Student- Comments*/
-
-.student-image img {
-    width: 100%;
+.social-menu li {
+    line-height: 50px;
 }
+
+.social-menu li a {
+    font-size: 16px;
+    color: rgba(45, 249, 23, 0.8);
+    padding: 10px;
+}
+
+.social-menu li:hover a {
+    color: #fff;
+}
+
+.reg-log-btns {}
+
+.reg-log-btns li {}
+
+.reg-log-btns li a {}
+
+.reg-log-btns li a:hover {}
+
+
+/*header-top end*/
+
+
+/*header-main start*/
+
+
+/*header-main end*/
+
+
+/*header-bottom start*/
+
+
+/*header-bottom bottom*/
+
+.logo img {
+    width: 50%;
+    height: 100px;
+}
+
+
+/*Mega Menu*/
+
+.mega-menu {
+    position: absolute;
+    top: 93%;
+    left: 15px;
+    right: 15px;
+    background: #ddd;
+    display: none;
+    z-index: 1000;
+}
+
+.mega:hover .mega-menu {
+    display: block;
+}
+
+.mega-menu ul li {
+    display: block;
+}
+
+
+/************************** Header Section End **************************/
+
+
+/************************** Slider Section Start **************************/
+
+
+/************************** Slider Section End **************************/
+
+
+/************************** Services Section Start **************************/
+
 
 /*Services*/
 
 #Services .border,
 #About-us .border,
 #Faq-section .border,
-#Student-comments .border{
+#Student-comments .border {
     width: 100px;
     display: block;
     height: 7px;
@@ -117,41 +176,21 @@ section#Map-contact .container-fluid .row {
 }
 
 
-
-/*Faq*/
-
-#faq {
-	background-color: rgb(245, 245, 245);
-}
-
-.card-header h4.panel-title a i.fa {
-	float: right;
-	font-size: 150%;
-	line-height: 15px;
-	display: none;
-}
-
-.card-header h4.panel-title a[aria-expanded=true] i.fa.fa-angle-up {
-	display: block;
-}
-
-.card-header h4.panel-title a[aria-expanded=false] i.fa.fa-angle-down {
-	display: block;
-}
+/************************** Services Section End **************************/
 
 
-/*End Faq*/
+/************************** About-us Section Start **************************/
 
 
 /*About-us*/
 
-.ceoimage-bg{
+.ceoimage-bg {
     background: url(../images/ceo.jpg) no-repeat;
     width: 100%;
     min-height: 350px;
 }
 
-.ceoimage-bg h4{
+.ceoimage-bg h4 {
     line-height: 350px;
     text-align: center;
     display: none;
@@ -159,36 +198,95 @@ section#Map-contact .container-fluid .row {
     font-size: 35px;
 }
 
-.ceoimage-bg h4 a{
-
+.ceoimage-bg h4 a {
     color: #fff;
     text-transform: uppercase;
 }
 
-.ceoimage-bg:hover h4{
+.ceoimage-bg:hover h4 {
     display: block;
 }
 
+
+/************************** About-us Section End **************************/
+
+
+/************************** Faq Section Start **************************/
+
+
+/*Faq*/
+
+#faq {
+    background-color: rgb(245, 245, 245);
+}
+
+.card-header h4.panel-title a i.fa {
+    float: right;
+    font-size: 150%;
+    line-height: 15px;
+    display: none;
+}
+
+.card-header h4.panel-title a[aria-expanded=true] i.fa.fa-angle-up {
+    display: block;
+}
+
+.card-header h4.panel-title a[aria-expanded=false] i.fa.fa-angle-down {
+    display: block;
+}
+
+
+/************************** Faq Section End **************************/
+
+
+/************************** Student-comments Section Start **************************/
+
+
+/*Student- Comments*/
+
+.student-image img {
+    width: 100%;
+}
+
+
+/************************** Student-comments Section End **************************/
+
+
+/************************** Map-contact Section Start **************************/
+
+
+/*Contact*/
+
+section#Map-contact .container-fluid .row {
+    background: url(../images/chalmars-university-rahim.jpg);
+}
+
+
+/************************** Map-contact Section End **************************/
+
+
+/************************** Footer Section Start **************************/
 
 
 /*footer*/
 
 #Footer,
-#Footer a{
-    color:#fff;
+#Footer a {
+    color: #fff;
 }
 
-
-
-.facebook-image img{
-    width:100%;
-    height:auto;
+.facebook-image img {
+    width: 100%;
+    height: auto;
 }
 
-.footer-top{
+.footer-top {
     background: #000;
 }
 
-.footer-bottom{
+.footer-bottom {
     background: #333;
 }
+
+
+/************************** Footer Section End **************************/
