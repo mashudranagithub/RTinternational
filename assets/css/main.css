@@ -202,7 +202,7 @@ button.btn.btn-outline-success.my-2.my-sm-0:hover {
 
 .mega-menu {
     position: absolute;
-    top: 1000%;
+    top: 200%;
     left: 0px;
     right: 0px;
     background: rgba(2, 2, 2, 0.5);
@@ -431,3 +431,29 @@ section#Map-contact .container-fluid .row {
 
 
 /************************** Footer Section End **************************/
+
+
+
+/************************** Map-contact Section Start **************************/
+
+
+/*
+
+
+/************************** Registration Section Start **************************/
+
+#Registration{
+    padding:50px 0px;
+}
+
+
+
+
+/************************** Registration Section End **************************/
+*/
+
+
+}
+
+
+/************************** Map-contact Section End **************************/
