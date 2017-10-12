@@ -80,26 +80,30 @@ h6 {
 
 #Header .header-top {
     background: #22313F;
-    min-height: 50px;
+    min-height: 40px;
 }
 
 
 /*social-menu*/
 
-.social-menu li {
-    line-height: 50px;
+.social-menu li,
+.reg-log-btns li {
+    line-height: 40px;
 }
 
-.social-menu li a {
+.social-menu li a,
+.reg-log-btns li a{
     font-size: 16px;
     color: rgba(45, 249, 23, 0.8);
     padding: 10px;
 }
 
-.social-menu li:hover a {
+.social-menu li a:hover,
+.reg-log-btns li a:hover{
     color: #fff;
 }
 
+/*
 .reg-log-btns {}
 
 .reg-log-btns li {}
@@ -107,12 +111,43 @@ h6 {
 .reg-log-btns li a {}
 
 .reg-log-btns li a:hover {}
+*/
 
 
 /*header-top end*/
 
 
 /*header-main start*/
+.info-box{
+    font-family: 'Roboto', sans-serif;
+}
+
+.info-box h5{
+    padding-bottom: 5px;
+}
+
+.info-box h5 i{
+    color: #5dce5c;
+    font-size: 20px;
+    padding-right: 15px;
+}
+
+.info-box h5 span{
+    font-family: 'Roboto', sans-serif;
+    font-weight:400;
+}
+
+.info-box p{
+    font-size: 15px;
+}
+
+
+
+
+.box-padding{
+    padding-left: 40px;
+}
+
 
 
 /*header-main end*/
@@ -120,12 +155,46 @@ h6 {
 
 /*header-bottom start*/
 
+.header-bottom {
+    background: #4CB051;
+}
 
-/*header-bottom bottom*/
+.header-bottom .container {
+    padding-right: 0px;
+    padding-left: 0px;
+}
 
-.logo img {
-    width: 50%;
-    height: 100px;
+a.nav-link {
+    color: #fff!important;
+    padding:15px 10px;!important;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+a.nav-link:hover {
+    color: #333!important;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light {
+    padding: 0px;
+}
+
+.nav-link i.fa.fa-angle-down {
+    padding-left: 5px;
+}
+
+button.btn.btn-outline-success.my-2.my-sm-0 {
+    background: #1c7500;
+    color: #fff;
+    font-family: 'Viga', sans-serif;
+    cursor: pointer;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+}
+
+
+button.btn.btn-outline-success.my-2.my-sm-0:hover {
+    background: black;
 }
 
 
@@ -133,21 +202,93 @@ h6 {
 
 .mega-menu {
     position: absolute;
-    top: 93%;
-    left: 15px;
-    right: 15px;
-    background: #ddd;
-    display: none;
-    z-index: 1000;
+    top: 1000%;
+    left: 0px;
+    right: 0px;
+    background: rgba(2, 2, 2, 0.5);
+    opacity: 0;
+    z-index: 0;
+    padding: 5px 35px;
+    transition: all 1s;
+    border: 2px solid #4CB051;
+    box-sizing: border-box;
+    border-radius:0px 0px 10px 10px;
+    border-top:none;
 }
 
 .mega:hover .mega-menu {
-    display: block;
+    opacity: 1;
+    z-index: 1000;
+    top:100%;
 }
 
 .mega-menu ul li {
     display: block;
+    transition:all 1s;
 }
+
+.single-continent h3 {
+    color: #fff;
+    font-family: 'Rajdhani', sans-serif;
+    padding: 5px;
+    border-bottom: 4px solid #4CB051;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.single-continent ul{
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+
+.single-continent ul li{
+    
+}
+
+
+.single-continent ul li a{
+    color:#fff;
+    padding:3px;
+    display: inline-block;
+    font-size: 16px;
+    transition: .5s;
+    text-transform: uppercase;
+}
+
+.single-continent ul li a:hover{
+    color:#4CB051;
+    transform: scale(1.3);
+}
+
+.single-continent a{
+    color: #44ED0E;
+    font-size: 18px;
+    padding: 5px;
+    display: inline-block;
+    transition: all .7s;
+}
+
+.single-continent a:hover{
+    color: #399;
+}
+
+
+
+
+
+
+
+
+
+/*header-bottom End*/
+
+.logo img {
+    width: 50%;
+    height: 100px;
+}
+
+
 
 
 /************************** Header Section End **************************/
