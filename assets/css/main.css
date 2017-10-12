@@ -103,16 +103,6 @@ h6 {
     color: #fff;
 }
 
-/*
-.reg-log-btns {}
-
-.reg-log-btns li {}
-
-.reg-log-btns li a {}
-
-.reg-log-btns li a:hover {}
-*/
-
 
 /*header-top end*/
 
@@ -148,8 +138,6 @@ h6 {
     padding-left: 40px;
 }
 
-
-
 /*header-main end*/
 
 
@@ -164,15 +152,21 @@ h6 {
     padding-left: 0px;
 }
 
+nav.navbar.navbar-expand-lg.navbar-light ul.navbar-nav.mr-auto li.nav-item {
+    padding-right: 5px;
+}
+
 a.nav-link {
     color: #fff!important;
     padding:15px 10px;!important;
     font-size: 16px;
     text-transform: uppercase;
+    transition:all 1s;
 }
 
 a.nav-link:hover {
     color: #333!important;
+    transform: rotate(360deg);
 }
 
 nav.navbar.navbar-expand-lg.navbar-light {
@@ -196,7 +190,6 @@ button.btn.btn-outline-success.my-2.my-sm-0 {
 button.btn.btn-outline-success.my-2.my-sm-0:hover {
     background: black;
 }
-
 
 /*Mega Menu*/
 
@@ -257,7 +250,7 @@ button.btn.btn-outline-success.my-2.my-sm-0:hover {
 }
 
 .single-continent ul li a:hover{
-    color:#4CB051;
+    color:#44ED0E;
     transform: scale(1.3);
 }
 
@@ -272,14 +265,6 @@ button.btn.btn-outline-success.my-2.my-sm-0:hover {
 .single-continent a:hover{
     color: #399;
 }
-
-
-
-
-
-
-
-
 
 /*header-bottom End*/
 
@@ -296,6 +281,38 @@ button.btn.btn-outline-success.my-2.my-sm-0:hover {
 
 /************************** Slider Section Start **************************/
 
+
+#Slider .carousel-control-next, .carousel-control-prev {
+    opacity: 1;
+    width: 35px;
+    height: 35px;
+    top: 46%;
+    /* left: 10px; */
+    background: #4CB051;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+#Slider .carousel-control-next{
+    right:15px;
+    padding-right: 4px;
+}
+
+#Slider .carousel-control-prev{
+    left:15px;
+    padding-right: 5px;
+}
+
+div#mainslider ol.carousel-indicators li {
+    background: #4CB051;
+    height: 5px;
+    border-radius: 5px;
+    cursor:pointer;
+}
+
+div#mainslider ol.carousel-indicators li.active {
+    background-color: #fff;
+}
 
 /************************** Slider Section End **************************/
 
@@ -434,13 +451,10 @@ section#Map-contact .container-fluid .row {
 
 
 
-/************************** Map-contact Section Start **************************/
 
 
-/*
 
-
-/************************** Registration Section Start **************************/
+/************************** Registration Page and Section Start **************************/
 
 #Registration{
     padding:50px 0px;
@@ -449,11 +463,4 @@ section#Map-contact .container-fluid .row {
 
 
 
-/************************** Registration Section End **************************/
-*/
-
-
-}
-
-
-/************************** Map-contact Section End **************************/
+/************************** Registration Page and Section End **************************/
