@@ -193,9 +193,13 @@ button.btn.btn-outline-success.my-2.my-sm-0:hover {
 
 /*Mega Menu*/
 
+.bavbar{
+    position: relative;
+}
+
 .mega-menu {
     position: absolute;
-    top: 200%;
+    top: 170%;
     left: 0px;
     right: 0px;
     background: rgba(2, 2, 2, 0.5);
@@ -213,6 +217,7 @@ button.btn.btn-outline-success.my-2.my-sm-0:hover {
     opacity: 1;
     z-index: 1000;
     top:100%;
+    transition: all 1s;
 }
 
 .mega-menu ul li {
@@ -312,6 +317,7 @@ div#mainslider ol.carousel-indicators li {
 
 div#mainslider ol.carousel-indicators li.active {
     background-color: #fff;
+    width:40px;
 }
 
 /************************** Slider Section End **************************/
@@ -336,6 +342,9 @@ div#mainslider ol.carousel-indicators li.active {
 
 /************************** Services Section End **************************/
 
+#Services .row.text-center {
+    padding-top: 50px;
+}
 
 /************************** About-us Section Start **************************/
 
@@ -456,8 +465,9 @@ section#Map-contact .container-fluid .row {
 
 /************************** Registration Page and Section Start **************************/
 
-#Registration{
-    padding:50px 0px;
+#Registration {
+    padding: 50px 0px;
+    position: relative;
 }
 
 
